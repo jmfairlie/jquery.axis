@@ -1,0 +1,47 @@
+.axis {
+  font-size: 12px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.axis > div {
+  background: #777;
+}
+
+.hAxis {
+  position:absolute;
+  width: 100%;
+  height: 25px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.hAxis .tickLabel {
+  position: absolute;
+  bottom: 0px;
+  width: 2px;
+  height: 100%;
+  color:black;
+  background-color:black;
+  text-indent: 5px;
+}
+
+/*don't draw first label tickmark if it's first child*/
+.tickLabel:first-child {
+  background-color: transparent;
+}
+
+.hAxis .tickMajor {
+  position: absolute;
+  bottom: 0px;
+  width: 1px;
+  height: 7px;
+  background-color:black;
+}
+
+.hAxis .tickMinor {
+  position: absolute;
+  bottom: 0px;
+  width: 1px;
+  height: 4px;
+}
