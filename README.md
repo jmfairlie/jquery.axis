@@ -6,7 +6,7 @@ A jQuery plugin to add graph axis like tickmarks to any container
 ```
   $("#yourdiv").axis({start:0, length:100});
 
-  //later one you can change the axis range by calling the update method
+  //later on you can change the axis range by calling the update method
 
   $("#yourdiv").axis('update',[100,100]);
 ```
